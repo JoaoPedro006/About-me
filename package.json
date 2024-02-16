@@ -1,5 +1,5 @@
 {
-  "home": "https://JoaoPedro006.github.io/About-me",
+  "home": "https://JoaoPedro006.github.io/About-mejoaopedro",
   "name": "app-movies",
   "version": "0.1.0",
   "private": true,
@@ -15,8 +15,8 @@
     "react-slick": "^0.30.1",
     "swiper": "^11.0.6",
     "web-vitals": "^2.1.4",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d dist"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "scripts": {
     "start": "react-scripts start",
