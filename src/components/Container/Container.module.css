@@ -1,0 +1,285 @@
+.container {
+  width: 100%;
+  height: 89vh;
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.831);
+  margin-bottom: -30px;
+}
+
+.curriculo a{
+  text-decoration: none;
+}
+
+.curriculo {
+  width: 240px;
+  border-radius: 14px;
+  background-color: rgb(30, 31, 31);
+  text-align: center;
+  margin-top: -30px;
+  margin-bottom: 10px;
+}
+
+.curriculo:hover {
+  background-color: rgb(133, 34, 225);
+  animation-duration: 2s;
+  animation-direction: alternate-reverse;
+  cursor: pointer;
+}
+
+.curriculo h3 {
+  font-size: 23px;
+  color: white;
+  padding-block: 6px;
+}
+
+.parte1 {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+}
+
+.parte1 img {
+  width: 440px;
+}
+
+.parte2 {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  color: rgb(255, 255, 255);
+  justify-content: left;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.parte2Geral {
+  width: 80%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px;
+  align-items: baseline;
+  padding-left: 10px;
+  padding-right: 10px;
+  z-index: 999999;
+}
+
+.icones {
+  margin-top: 10px;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 0px;
+}
+
+.icon {
+  width: 60px;
+  height: 60px;
+  margin-right: 8px;
+}
+
+.Materialize {
+  width: 110px;
+  height: 80px;
+  position: relative;
+  right: 24px;
+}
+
+.parte2 div h2 {
+  margin-bottom: 10px;
+  font-size: 44px;
+  margin-top: 10px;
+}
+
+.parte2 div h3 {
+  font-size: 24px;
+}
+
+.opcoes{
+  display: none;
+}
+
+@media (max-width: 1134px) {
+  .parte1 {
+    width: 39%;
+  }
+
+  .parte1 img {
+    width: 390px;
+  }
+
+  .parte2 {
+    width: 60%;
+  }
+}
+
+@media (max-width: 930px) {
+  .parte1 img {
+    width: 340px;
+  }
+
+  .parte2 {
+    justify-content: center;
+  }
+
+  .icon {
+    width: 60px;
+    height: 60px;
+  }
+
+  .Materialize {
+    width: 100px;
+    height: 80px;
+  }
+}
+
+@media (max-width: 850px) {
+  .parte2 {
+    margin-top: -90px;
+  }
+
+  .parte2 div h2 {
+    font-size: 30px;
+    margin-top: 10px;
+  }
+
+  .parte2 div h3 {
+    font-size: 21px;
+  }
+}
+
+@media (max-width: 795px) {
+  .parte2 {
+    width: 100%;
+    justify-content: center;
+    margin-top: -50px;
+  }
+
+  .parte2 div {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .parte1 {
+    display: none;
+  }
+
+  .Materialize {
+    display: none;
+  }
+
+  .icones {
+    height: 110px;
+    width: 100%;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: -29px;
+  }
+
+  .icon {
+    width: 20%;
+    height: 100%;
+  }
+
+  .container {
+    height: 103vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+  }
+
+  .curriculo{
+    margin-top: -120px;
+  }
+
+  .parte2 div h2{
+    margin-top: 40px;
+  }
+
+  .opcoes{
+    display: block;
+    width: 80%;
+    height: 350px;
+    padding-bottom: 20px;
+    min-width: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .child{
+    width: 80%;
+    min-width: 260px;
+    height: 60px;
+    background-color: rgb(37, 48, 206);
+    margin-block: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: 2px solid white;
+    font-size: 21px;
+    color: azure;
+  }
+
+  .child:hover{
+      background-color: rgb(126, 29, 216);
+      cursor: pointer;
+  }
+
+  .child a{
+    text-decoration: none;
+    font-size: 21px;
+    color: azure;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 680px) {
+  .parte2 {
+    margin-top: -80px;
+  }
+
+  .icon {
+    width: 100px;
+    height: 90px;
+    margin-top: -30px;
+  }
+}
+
+@media (max-width: 450px) {
+  .icones {
+    height: 110px;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .icon {
+    width: 60px;
+    height: 70px;
+  }
+
+  .parte2 {
+    align-items: baseline;
+  }
+
+  .parte2 div h2 {
+    margin-bottom: 20px;
+    font-size: 30px;
+  }
+
+  .parte2 div h3 {
+    font-size: 19px;
+  }
+}

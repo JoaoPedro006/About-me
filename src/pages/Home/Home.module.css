@@ -1,0 +1,13 @@
+body {
+  width: 100%;
+  height: 100%;
+  background-image: url(../Home/Portfólio\ Criativo.png);
+  background-size: cover;
+  background-position: 20%;
+}
+@media (max-width:850px) {
+  body{
+    background-image: none;
+  }
+}
+
