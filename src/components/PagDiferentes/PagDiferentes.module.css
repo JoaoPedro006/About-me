@@ -172,6 +172,13 @@ body {
 }
 
 @media (max-width: 665px) {
+
+  .projetos{
+    height: 230px;
+    background-color: aqua;
+    margin-block: 70px;
+  }
+
   .texto div {
     width: 96%;
     height: 140px;
@@ -188,5 +195,10 @@ body {
 
   .textoChave h2 {
     font-size: 50px;
+  }
+
+  .textoChave{
+    font-size: 28px;
+    padding-left: 20px;
   }
 }

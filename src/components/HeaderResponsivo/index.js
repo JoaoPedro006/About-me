@@ -28,16 +28,16 @@ function HeaderResponsivo() {
           >
             <ul>
               <li className="box">
-                <a className="li-a" href="http://localhost:3000/Home">Home</a>
+                <a className="li-a" href="/Home">Home</a>
               </li>
               <li className="box">
-                <a className="li-a" href="http://localhost:3000/Certificacoes">Sobre</a>
+                <a className="li-a" href="/Certificacoes">Sobre</a>
               </li>
               <li className="box">
-                <a className="li-a" href="http://localhost:3000/Projetos">Projetos</a>
+                <a className="li-a" href="/Projetos">Projetos</a>
               </li>
               <li className="box">
-                <a className="li-a" href="http://localhost:3000/Habilidades">Habilidades</a>
+                <a className="li-a" href="/Habilidades">Habilidades</a>
               </li>
               <li className="box">
                 <a className="li-a" href="https://www.linkedin.com/in/jo%C3%A3o-pedro-maia-pinheiro-23532a269/">Perfil Linkedin</a>

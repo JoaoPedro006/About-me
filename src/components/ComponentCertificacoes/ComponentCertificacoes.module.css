@@ -232,11 +232,19 @@
   }
 
   .body{
-    width: 90%;
-    padding-left: 10px;
+    width: 100%;
   }
 
   .geral {
     background-color: rgba(1, 1, 1, 0);
+  }
+
+  .frase h1{
+    font-size: 36px;
+  }
+
+  .bio h4{
+    font-size: 17px;
+    padding-inline: 10px;
   }
 }
