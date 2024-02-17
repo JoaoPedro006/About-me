@@ -212,7 +212,6 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: brown;
     position: relative;
     top: -40px;
   }
@@ -287,6 +286,6 @@
 
   .opcoes {
     position: relative;
-    top: -20px;
+    top: -40px;
   }
 }
