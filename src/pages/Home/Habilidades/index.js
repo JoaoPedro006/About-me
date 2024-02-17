@@ -27,8 +27,8 @@ function Habilidades() {
       <div className={styles.TextoPai}>
         <div className={styles.textoBox}>
           <h2>Desenvolvimento Front-end</h2>
-          <h5>Habilidade para analisar e decompor problemas complexos em passos menores e mais gerenciáveis,
-             facilitando sua resolução através de algoritmos.</h5>
+          <h5>Transformo conceitos em interfaces intuitivas e visualmente atraentes, utilizando HTML, CSS e JavaScript para 
+            criar experiências digitais memoráveis.</h5>
         </div>
         <div className={styles.textoBox}>
         <h2>Design Responsivo</h2>
