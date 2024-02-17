@@ -285,7 +285,6 @@
   }
 
   .opcoes {
-    position: relative;
-    top: -40px;
+    margin-top: -100px;
   }
 }
