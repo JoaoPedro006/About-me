@@ -6,7 +6,7 @@
   margin-bottom: -30px;
 }
 
-.curriculo a{
+.curriculo a {
   text-decoration: none;
 }
 
@@ -100,7 +100,7 @@
   font-size: 24px;
 }
 
-.opcoes{
+.opcoes {
   display: none;
 }
 
@@ -194,15 +194,15 @@
     padding-bottom: 20px;
   }
 
-  .curriculo{
+  .curriculo {
     margin-top: -120px;
   }
 
-  .parte2 div h2{
+  .parte2 div h2 {
     margin-top: 40px;
   }
 
-  .opcoes{
+  .opcoes {
     display: block;
     width: 80%;
     height: 350px;
@@ -212,9 +212,12 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-color: brown;
+    position: relative;
+    top: -40px;
   }
 
-  .child{
+  .child {
     width: 80%;
     min-width: 260px;
     height: 60px;
@@ -222,19 +225,18 @@
     margin-block: 10px;
     display: flex;
     justify-content: center;
-    align-items: center;
     border-radius: 20px;
     border: 2px solid white;
     font-size: 21px;
     color: azure;
   }
 
-  .child:hover{
-      background-color: rgb(126, 29, 216);
-      cursor: pointer;
+  .child:hover {
+    background-color: rgb(126, 29, 216);
+    cursor: pointer;
   }
 
-  .child a{
+  .child a {
     text-decoration: none;
     font-size: 21px;
     color: azure;
@@ -283,7 +285,8 @@
     font-size: 19px;
   }
 
-  .opcoes{
-    margin-top: -90px;
+  .opcoes {
+    position: relative;
+    top: -20px;
   }
 }
